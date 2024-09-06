@@ -29,3 +29,7 @@ container.appendChild(content);
 container.appendChild(redText);
 container.appendChild(h3text);
 container.appendChild(divGeneral);
+
+btn.addEventListener("click", function (e) {
+    console.log(e.target);
+  });
